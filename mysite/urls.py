@@ -14,7 +14,7 @@ from . import views
 
 router = routers.DefaultRouter() # add this
 
-router.register(r'projects', views.TodoView, 'project')
+router.register(r'project', views.TodoView, 'project')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
