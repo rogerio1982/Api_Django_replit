@@ -126,6 +126,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 ALLOWED_HOSTS = ['*']
 X_FRAME_OPTIONS = '*'
 
-CORS_ORIGIN_WHITELIST = [
-     'http://localhost:3000'
-]
+#CORS_ORIGIN_WHITELIST = [
+#     'http://localhost:3000'
+#]
+
+CORS_ORIGIN_ALLOW_ALL = True
