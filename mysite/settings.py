@@ -132,3 +132,6 @@ X_FRAME_OPTIONS = '*'
 #]
 
 CORS_ORIGIN_ALLOW_ALL = True
+
+import django_on_heroku
+django_on_heroku.settings(locals())
