@@ -15,6 +15,7 @@ from . import views
 router = routers.DefaultRouter() # add this
 
 router.register(r'project', views.TodoView, 'project')
+router.register(r'marvel', views.TodoView2, 'marvel')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
