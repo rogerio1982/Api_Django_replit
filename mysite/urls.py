@@ -16,6 +16,7 @@ router = routers.DefaultRouter() # add this
 
 router.register(r'project', views.TodoView, 'project')
 router.register(r'marvel', views.TodoView2, 'marvel')
+router.register(r'ioga', views.TodoView3, 'ioga')
 
 urlpatterns = [
     path('admin/', admin.site.urls),

@@ -15,3 +15,9 @@ class Marvel(models.Model):
     description = models.TextField(max_length=100)
     technology = models.CharField(max_length=20)
     image = models.FileField(upload_to ='static/',blank=True)
+
+class Ioga(models.Model):
+    title = models.CharField(max_length=100)
+    description = models.TextField(max_length=100)
+    technology = models.CharField(max_length=20)
+    image = models.FileField(upload_to ='static/',blank=True)
